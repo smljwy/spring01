@@ -15,6 +15,7 @@ public class EmpBizImpl implements EmpBiz {
 
     @Override
     public List<Emp> findAll() {
+        System.out.println("hot");
         List<Emp> empList = empDao.findAll();
         return empList;
     }
